@@ -14,6 +14,8 @@ function dispatch(action){
     render()
 }
 
+const x = 1;
+
 function render(){
     document.body.textContent = state.count
 }
